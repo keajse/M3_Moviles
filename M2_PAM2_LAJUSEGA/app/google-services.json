@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "50136015858",
+    "firebase_url": "https://m2pam2lajusega.firebaseio.com",
+    "project_id": "m2pam2lajusega",
+    "storage_bucket": "m2pam2lajusega.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50136015858:android:04deac599b5a22ba78416b",
+        "android_client_info": {
+          "package_name": "com.example.m2_pam2_lajusega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50136015858-3vte9ufvm4hbp3o0d5j56d7e8q0b7hs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA93aHTN9EK5CDMl0Qp5ImSQysHcvZb2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "50136015858-3vte9ufvm4hbp3o0d5j56d7e8q0b7hs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
