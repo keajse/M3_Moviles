@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetalleActivity"
+    tools:context=".EditarActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -13,19 +13,19 @@
         >
 
         <TextView
-        android:id="@+id/tvid"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:text="Id"
-        android:layout_marginTop="44dp"
-        android:gravity="center"
-        android:background="@color/colorAccent"
-        android:textStyle="bold"
+            android:id="@+id/tvid"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Id"
+            android:layout_marginTop="44dp"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:textStyle="bold"
 
-        />
+            />
 
         <TextView
-            android:id="@+id/tvReciboid"
+            android:id="@+id/reciboid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
@@ -54,8 +54,8 @@
             android:textStyle="bold"
             />
 
-        <TextView
-            android:id="@+id/tvReciboname"
+        <EditText
+            android:id="@+id/editarname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
@@ -84,8 +84,8 @@
             android:textStyle="bold"
             />
 
-        <TextView
-            android:id="@+id/tvRecibofrase"
+        <EditText
+            android:id="@+id/editarfrase"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
@@ -114,8 +114,8 @@
             android:textStyle="bold"
             />
 
-        <TextView
-            android:id="@+id/tvRecibodescripcion"
+        <EditText
+            android:id="@+id/editardescripcion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
@@ -130,7 +130,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_update"
+        android:id="@+id/btn_editar"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -138,7 +138,7 @@
         android:background="#34D38E"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="70dp"
-        android:text="Actualizar"
+        android:text="Guardar Cambios"
         />
 
 

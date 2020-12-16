@@ -23,11 +23,15 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.util.ArrayList;
+
 public class DetalleActivity extends AppCompatActivity {
 
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     private TextView reciboid, reciboname,recibofrase,recibodescripcion;
     private Button btn_update;
+
+    private ArrayList<NotaModel> list;
 
     private String TAG = "LFNOT";
     final private String collection = "santos";
@@ -106,6 +110,23 @@ public class DetalleActivity extends AppCompatActivity {
 
                 });*/
 
+       btn_update.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               if (model.getFbId() != null && !model.getFbId().equals("")) {
+                   Intent intent = new Intent(DetalleActivity.this, EditarActivity.class);
+                   intent.putExtra("id", model.getFbId());
+                   startActivity(intent);
+               }
+
+           }
+       });
+
+
+
     }
 
+
+
 }
+
